@@ -1,0 +1,378 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM5 instead...[0m
+[0;33m--- esp-idf-monitor 1.5.0 on \\.\COM5 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- To exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+[0m
+[0;33m--- 0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+[0m
+[0;33m--- 0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+[0m
+[0;33m--- 0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+[0m
+[0;33m--- 0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+[0m
+[0;33m--- 0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m--- 0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_startup.c:208
+0x40085fb9: vPortTaskWrapper at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400818c1: panic_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/panic.c:454
+0x400857c5: esp_system_abort at C:/Users/fabio/esp/v5.4/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b689: __assert_func at C:/Users/fabio/esp/v5.4/esp-idf/components/newlib/assert.c:80
+0x400d9dfe: tcpip_callback at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/lwip/src/api/tcpip.c:318 (discriminator 1)
+0x400d9dac: esp_sntp_setoperatingmode at C:/Users/fabio/esp/v5.4/esp-idf/components/lwip/apps/sntp/sntp.c:168
+0x400d6f56: initialize_sntp at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:9
+0x400d6f6b: obtain_time at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/time_sync.c:15
+0x400d6f2e: app_main at C:/Users/fabio/Documents/00_Documenti/esp/read_write_blink/main/main.c:18
+0x400f41dc: main_task at C:/Users/fabio/esp/v5.4/esp-idf/components/freertos/app_star
